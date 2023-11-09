@@ -1,0 +1,104 @@
+#aboutmain {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+
+#abouts {
+    text-align: right;
+    font-size: 20px;
+}
+
+header {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 250px;
+    border: 2px solid #73AD21 center;
+    padding: 20px;
+    width: 1175px;
+    height: 100px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+/* Add some styles to sections */
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 250px;
+    border: 1px solid #73AD21 center;
+    padding: 2px;
+    width: 1213px;
+}
+
+#lol {
+    font-size: 30px;
+    color: green;
+}
+
+section a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0a500;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    font-size: 23px;
+    text-align: right;
+}
+
+.option {
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#output {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
